@@ -1,10 +1,10 @@
 // - Chiedere all'utente 5 numeri. Inserire i numeri nell'array ma senza creare 
 // duplicati (inserire il numero nell'array solo se non è già presente).
 
-// creo un'array vuota 
+// stabilisco quati numeri voglio
 const howManyNumbers = 5; 
+// creo un'array vuota 
 const numbers = [];
-
 
 // chiedo all'utente 5 numeri utilizzando il ciclo for 
 for (let i = 0; i < howManyNumbers; i++){
@@ -16,7 +16,7 @@ for (let i = 0; i < howManyNumbers; i++){
         numbers.push(userNumber);
     }
 }
-
+// stampo il risultato
 console.log(numbers);
 
 
