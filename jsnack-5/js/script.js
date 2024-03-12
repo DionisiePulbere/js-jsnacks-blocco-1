@@ -18,3 +18,18 @@ for (let i = 0; i < howManyNumbers; i++){
 // stampo il risultato
 console.log(numbers);
 console.log(bigger);
+
+
+// metodo correzione dati avendo già numeri all'interno dell'arrey
+// const numbers = [10, 20 ,40 ,50 ,27, 38, 29, 17, 16, 8];
+
+// let biggerNumber = numbers[0]; 
+
+// for (let i = 0; i < numbers.length; i++){
+//     const thisNumber = numbers[i];
+
+//     if (thisNumber > biggerNumber){
+//         biggerNumber = thisNumber;
+//     }
+// }
+// console.log(biggerNumber);
